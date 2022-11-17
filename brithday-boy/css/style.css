@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "happymonkey";
+    src: url("../font/HappyMonkey-Regular.ttf");
+}
+body{
+    text-align: center;
+    font-family: 'happymonkey',cursive;
+    background: linear-gradient(#a2d2ff,#EFB0C9);
+    color: #ffffff;
+}
+h1,h2,h3,h4,p{
+    text-shadow: 0px 0px 1px black;
+  
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bdy-age{
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0px 10px 0px;
+}
+#bdy-date{
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0px 10px 0px;
+}
+#avitar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border:6px solid #EFB0C9;
+}
+.gift-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gift-title{
+    margin-top: 50px;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.gift-text{
+    font-size: 18px;
+    margin-top: 0px;
+}
+#gift-cover{
+    background-image: url('../img/gift-cover.jpg');
+    height: 400px;
+    background-size: cover;
+    width: 400px;
+    border:4px solid #fff;
+    border-radius: 10px;
+}
+#gift-cover:hover{
+    background-image: url("../img/happy-birthday-to-you.gif");
+ 
+}
+#gift-cover1{
+    background-image: url('../img/gift-cover.jpg');
+    height: 400px;
+    background-size: cover;
+    width: 400px;
+    border:4px solid #fff;
+    border-radius: 10px;
+}
+#gift-cover1:hover{
+    background-image: url("../img/happy-birthday.gif");
+    background-repeat: no-repeat;
+}
+#gift-cover2,#gift-cover3{
+    background-image: url('../img/gift-cover.jpg');
+    height: 400px;
+    background-size: cover;
+    width: 400px;
+    border:4px solid #fff;
+    border-radius: 10px;
+}
+#gift-cover2:hover{
+    background-image: url("../img/217210-animated-snoopy-happy-birthday-quote.webp");
+  
+}
+#gift-cover3:hover{
+    background-image: url("../img/frozen.gif");
+    background-position: center;
+  
+}
+#gift-cover4{
+    background-image: url('../img/gift-cover.jpg');
+    height: 200px;
+    background-size: cover;
+    width: 400px;
+    border:4px solid #fff;
+    border-radius: 10px;
+}
+#gift-cover4:hover{
+    background-image: url("../img/happy-birthday-bear.gif");
+  
+}
+#footer{
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+#footer a{
+    color: white;
+    
+}
